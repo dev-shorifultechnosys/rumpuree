@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b0b0f">
+  <title>Class Schedule | rumPUREE World Dance Studio</title>
+  <meta name="description" content="Responsive schedule page skin for rumPUREE dance classes with branch tabs, filters, and mobile-friendly class cards.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header"><nav class="navbar" aria-label="Main navigation"><a class="logo" href="index.html"><img src="assets/logo.svg" alt="rumPUREE logo"></a><ul class="nav-links" data-nav-links><li><a href="schedule.html">Schedule</a></li><li><a href="fee.html">Fee</a></li><li><a href="promotion.html">Promotion</a></li><li><a href="index.html">New Class & Workshop</a></li><li><a href="events.html">Our Events</a></li><li><a href="services.html">Our Services</a></li><li><a href="about.html">About Us</a></li></ul><div class="nav-actions"><a class="btn small login-btn" href="#login">Login</a><button class="mobile-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button></div></nav></header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <div class="section-head fade-up">
+        <div><span class="eyebrow">Weekly Classes</span><h1>Schedule</h1><p>Built for fast mobile checking while keeping the same class, level, coach, and booking structure.</p></div>
+        <div class="branch-tabs" data-branch-tabs><button class="branch-tab active" data-branch="asok">@ASOK</button><button class="branch-tab" data-branch="samyan">@SAMYAN</button></div>
+      </div>
+
+      <div class="filter-panel fade-up" data-schedule-filters>
+        <div class="filters">
+          <div class="form-group"><label for="class-filter">Class</label><select id="class-filter" data-filter-class><option value="all">Please select</option><option value="pole">Pole Dance</option><option value="latin">Latin Dance</option><option value="ballet">Ballet</option><option value="hiphop">Hip Hop</option><option value="bellydance">Bellydance</option><option value="contemporary">Contemporary</option></select></div>
+          <div class="form-group"><label for="level-filter">Level</label><select id="level-filter" data-filter-level><option value="all">Please select</option><option value="intro">Intro</option><option value="alllevel">All level</option><option value="level1">Level 1</option><option value="level2">Level 2</option><option value="level3">Level 3</option></select></div>
+          <div class="form-group"><label for="coach-filter">Coach</label><select id="coach-filter" data-filter-coach><option value="all">Please select</option><option value="nami">Nami</option><option value="nont">Nont</option><option value="apple">Apple</option><option value="ara">Ara</option><option value="makiko">Makiko</option><option value="olivier">Olivier</option></select></div>
+          <button class="btn" type="button" data-filter-reset>Class Filter</button>
+        </div>
+      </div>
+
+      <div data-branch-content="asok">
+        <div class="week-bar"><span>‹‹</span><span>14 June – 20 June</span><span>››</span></div>
+        <div class="schedule-layout">
+          <div class="schedule-main fade-up">
+            <section class="day-group" data-day-group><h2 class="day-title">Sunday, Jun 14</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="pole" data-level="level3" data-coach="nami"><span class="time">13:00–14:00</span><span class="class-name">Pole Dance</span><span class="level">Level 3</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="pole" data-level="alllevel" data-coach="nami"><span class="time">14:00–15:00</span><span class="class-name">Pole Invert</span><span class="level">All level</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="hiphop" data-level="alllevel" data-coach="nont"><span class="time">15:00–16:00</span><span class="class-name">Hip Hop - Choreo</span><span class="level">All level</span><span class="coach">Nont</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="pole" data-level="level1" data-coach="nont"><span class="time">16:00–17:00</span><span class="class-name">Pole Spinning</span><span class="level">Level 1</span><span class="coach">Nont</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+            <section class="day-group" data-day-group><h2 class="day-title">Monday, Jun 15</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="pole" data-level="alllevel" data-coach="nami"><span class="time">17:00–18:00</span><span class="class-name">Pole Dance - Choreo</span><span class="level">All level</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="pole" data-level="level2" data-coach="nami"><span class="time">18:00–19:00</span><span class="class-name">Pole Dance - Heels</span><span class="level">Level 2</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level1" data-coach="apple"><span class="time">20:00–21:00</span><span class="class-name">Salsa On 2 [Full Course 6]</span><span class="level">Level 1B</span><span class="coach">Apple</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+            <section class="day-group" data-day-group><h2 class="day-title">Tuesday, Jun 16</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="pole" data-level="intro" data-coach="nami"><span class="time">18:00–19:00</span><span class="class-name">Pole Dance</span><span class="level">Intro</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="ballet" data-level="level1" data-coach="ara"><span class="time">18:00–19:00</span><span class="class-name">Adult Ballet</span><span class="level">Level 1</span><span class="coach">Ara</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level3" data-coach="apple"><span class="time">19:00–20:00</span><span class="class-name">Salsa On 2 [Full Course 6]</span><span class="level">Level 3A</span><span class="coach">Apple</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+            <section class="day-group" data-day-group><h2 class="day-title">Wednesday, Jun 17</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="bellydance" data-level="level3" data-coach="ara"><span class="time">12:00–13:00</span><span class="class-name">Bellydance - Techniques</span><span class="level">Level 3</span><span class="coach">Ara</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="pole" data-level="alllevel" data-coach="nami"><span class="time">12:00–13:00</span><span class="class-name">Pole Dance</span><span class="level">All level</span><span class="coach">Nami</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row cancelled" data-class-row data-class-type="contemporary" data-level="alllevel" data-coach="nont"><span class="time">20:00–21:00</span><span class="class-name">Contemporary [CANCELLED]</span><span class="level">All level</span><span class="coach">Nont</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+            <section class="day-group" data-day-group><h2 class="day-title">Saturday, Jun 20</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level2" data-coach="olivier"><span class="time">11:15–12:15</span><span class="class-name">Salsa On 2 [Full Course 6]</span><span class="level">Level 2A</span><span class="coach">Olivier</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level3" data-coach="apple"><span class="time">13:15–14:15</span><span class="class-name">Salsa On 2 [Full Course 6] (NEW)</span><span class="level">Level 3A</span><span class="coach">Apple</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level1" data-coach="makiko"><span class="time">15:15–16:15</span><span class="class-name">Bachata Sensual [Full Course 6]</span><span class="level">Level 1B</span><span class="coach">Makiko</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+          </div>
+
+          <aside class="level-sidebar fade-up" aria-label="Level of dance">
+            <article class="level-card"><img src="assets/level-intro.svg" alt="Intro level"><div><h3>Introduction</h3><p>Suggested for absolute beginners with no previous dance experience.</p></div></article>
+            <article class="level-card"><img src="assets/level-all.svg" alt="All level"><div><h3>All level</h3><p>Open to everyone with or without previous dance experience.</p></div></article>
+            <article class="level-card"><img src="assets/level-1.svg" alt="Level 1"><div><h3>Level 1 – Beginner</h3><p>Designed for people new to dance and ready to build foundation.</p></div></article>
+            <article class="level-card"><img src="assets/level-2.svg" alt="Level 2"><div><h3>Level 2 – Beginner Intermediate</h3><p>For students with basic movements and regular practice experience.</p></div></article>
+            <article class="level-card"><img src="assets/level-3.svg" alt="Level 3"><div><h3>Level 3 – Intermediate</h3><p>For dancers with solid basics who want more complex combinations.</p></div></article>
+          </aside>
+        </div>
+      </div>
+
+      <div class="hidden" data-branch-content="samyan">
+        <div class="week-bar"><span>‹‹</span><span>14 June – 20 June</span><span>››</span></div>
+        <div class="schedule-layout">
+          <div class="schedule-main fade-up">
+            <section class="day-group" data-day-group><h2 class="day-title">Monday, Jun 15</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level1" data-coach="apple"><span class="time">18:30–19:30</span><span class="class-name">Bachata Beginner</span><span class="level">Level 1</span><span class="coach">Apple</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="latin" data-level="level2" data-coach="makiko"><span class="time">19:30–20:30</span><span class="class-name">Salsa Partnerwork</span><span class="level">Level 2</span><span class="coach">Makiko</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+            <section class="day-group" data-day-group><h2 class="day-title">Thursday, Jun 18</h2><div class="class-list">
+              <div class="class-row" data-class-row data-class-type="ballet" data-level="level1" data-coach="olivier"><span class="time">18:00–19:00</span><span class="class-name">Adult Ballet</span><span class="level">Level 1</span><span class="coach">Olivier</span><a class="btn small" href="#booking">Booking</a></div>
+              <div class="class-row" data-class-row data-class-type="contemporary" data-level="alllevel" data-coach="ara"><span class="time">19:00–20:00</span><span class="class-name">Contemporary Flow</span><span class="level">All level</span><span class="coach">Ara</span><a class="btn small" href="#booking">Booking</a></div>
+            </div></section>
+          </div>
+          <aside class="level-sidebar fade-up"><article class="level-card"><img src="assets/level-all.svg" alt="All level"><div><h3>Samyan schedule</h3><p>Branch tab layout is ready to connect with the existing schedule backend.</p></div></article></aside>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<aside class="social-rail premium-social" aria-label="Social links">
+  <a class="social-link instagram" href="#instagram" aria-label="Instagram"><span>IG</span><small>Instagram</small></a>
+  <a class="social-link youtube" href="#youtube" aria-label="YouTube"><span>YT</span><small>YouTube</small></a>
+  <a class="social-link line" href="#line" aria-label="LINE"><span>LN</span><small>LINE</small></a>
+</aside>
+<footer class="site-footer">
+  <section class="branch-footer">
+    <div class="container footer-intro">
+      <span class="eyebrow">Visit Our Studios</span>
+      <h2>Two central Bangkok locations for every dance journey</h2>
+    </div>
+    <div class="container branch-grid">
+      <div class="branch-card">
+        <span class="branch-label">BTS Asok / MRT Sukhumvit</span>
+        <h3>Asok Branch</h3>
+        <p>2nd Floor, Jasmine City Building,<br>Sukhumvit 23 Alley, Khlong Toei, Bangkok 10110<br>BTS Asok Exit 6, MRT Sukhumvit</p>
+        <span class="phone">Tel. 092-204-9677</span>
+        <a class="btn dark small" href="#map-asok">Get Map</a>
+      </div>
+      <div class="branch-card">
+        <span class="branch-label">MRT Samyan</span>
+        <h3>Samyan Mitrtown Branch</h3>
+        <p>Samyan Mitrtown 3rd Floor,<br>944 Rama IV Rd, Wang Mai, Pathumwan, Bangkok 10330<br>MRT Samyan</p>
+        <span class="phone">Tel. 092-204-9655</span>
+        <a class="btn dark small" href="#map-samyan">Get Map</a>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">© 1999–2026 RUMPUREE. ALL RIGHTS RESERVED.</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
